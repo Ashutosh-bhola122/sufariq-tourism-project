@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+
+.bg-container {
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 10px;
+}
+
+.main-heading {
+    color: #1A4D2E;
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.paragraph {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 20px;
+    color: #444;
+}
+
+.button {
+    height: 42px;
+    width: 160px;
+    background: linear-gradient(135deg, #1A4D2E, #4CAF50);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #145a32, #2e8b57);
+    transform: scale(1.08);
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    height: 180vh;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+}
+
+.favourite-places-heading {
+    color: #FFD700;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.favourite-place-card-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 90px;
+    height: 100px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 20px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size: cover;
+    height: 100vh;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 24px;
+
+}
+
+.detailed-view-text-container {
+    padding: 18px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.detailed-view-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 20px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size: cover;
+    height: 150vh;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 24px;
+
+}
+
+.detailed-view-text-container {
+    padding: 18px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.detailed-view-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+
+}
+
+.unordered-list {
+    list-style-type: circle;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    height: 120vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
